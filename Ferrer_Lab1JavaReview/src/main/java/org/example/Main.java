@@ -29,7 +29,7 @@ public class Main {
                 addBook();
                 break;
             case "2":
-                updateBook();
+                updateBookStatus();
                 break;
             case "3":
                 showBooks();
@@ -69,7 +69,7 @@ public class Main {
 
     }
 
-    private static void updateBook() {
+    private static void updateBookStatus() {
         System.out.println("Updating now a book!");
         showBooks();
         System.out.print("Enter the book number you want to update: ");
